@@ -1,4 +1,5 @@
-// A Beautiful Life - Kosmetik Institut Freiburg Configuration
+// A Beautiful Life - Demo Website Configuration
+// NOT affiliated with real business - placeholder data only
 
 export const config = {
   // ============================================
@@ -6,9 +7,9 @@ export const config = {
   // ============================================
   business: {
     name: "A Beautiful Life",
-    tagline: "KOSMETIK INSTITUT · FREIBURG",
-    motto: "Professionelle Kosmetik, Permanent Make-up & Wellness in Freiburg",
-    description: "Ihr Kosmetik Institut in Freiburg. Gesichtsbehandlungen, Permanent Make-up, Kryolipolyse, Laserbehandlungen, Nageldesign und vieles mehr. Wir verwöhnen Sie mit hochwertigen Behandlungen.",
+    tagline: "KOSMETIK INSTITUT · DEMO",
+    motto: "Demo Website",
+    description: "Demo website for portfolio purposes only. Not affiliated with any real business.",
     foundingYear: 2010,
     yearsExperience: 15,
     yearsInCenter: 15,
@@ -17,30 +18,30 @@ export const config = {
   },
 
   // ============================================
-  // CONTACT INFORMATION
+  // CONTACT INFORMATION (PLACEHOLDER)
   // ============================================
   contact: {
-    phone: "0761 5958813",
-    phoneLink: "tel:+497615958813",
-    email: "info@a-beautiful-life.de",
-    whatsapp: "+49 761 5958813",
-    whatsappLink: "https://wa.me/497615958813",
+    phone: "0123 4567890",
+    phoneLink: "tel:+491234567890",
+    email: "demo@example.com",
+    whatsapp: "+49 123 4567890",
+    whatsappLink: "https://wa.me/491234567890",
     address: {
-      street: "Leopoldring 1, 2. OG",
-      city: "Freiburg im Breisgau",
-      district: "Altstadt",
-      zip: "79098",
+      street: "Musterstraße 1",
+      city: "Musterstadt",
+      district: "Zentrum",
+      zip: "12345",
     },
-    googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2670.5!2d7.8485!3d47.9970!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911c9e9e9e9e9e%3A0x0!2sLeopoldring%201%2C%2079098%20Freiburg!5e0!3m2!1sde!2sde!4v1700000000000!5m2!1sde!2sde",
-    googleMapsLink: "https://www.google.com/maps/search/?api=1&query=Leopoldring+1,+79098+Freiburg",
+    googleMapsEmbed: "",
+    googleMapsLink: "",
   },
 
   // ============================================
-  // SOCIAL MEDIA
+  // SOCIAL MEDIA (PLACEHOLDER)
   // ============================================
   social: {
-    instagram: "https://www.instagram.com/a_beautiful_life_freiburg/",
-    facebook: "https://www.facebook.com/A-Beautiful-Life-Kosmetikinstitut-Freiburg-183001055055225/",
+    instagram: "",
+    facebook: "",
     tiktok: "",
   },
 
@@ -48,7 +49,7 @@ export const config = {
   // OPENING HOURS
   // ============================================
   hours: {
-    weekdays: "Mo 09:00-20:00, Di-Fr 10:00-18:00",
+    weekdays: "Mo-Fr 10:00-18:00",
     saturday: "Sa 10:00-15:00",
     sunday: "Geschlossen",
     note: "Termine nach Vereinbarung",
@@ -56,72 +57,65 @@ export const config = {
   },
 
   // ============================================
-  // BOOKING
+  // BOOKING (PLACEHOLDER)
   // ============================================
   booking: {
-    url: "https://wa.me/497615958813?text=Hallo,%20ich%20möchte%20gerne%20einen%20Termin%20vereinbaren.",
+    url: "#",
   },
 
   // ============================================
-  // GOOGLE REVIEWS
+  // GOOGLE REVIEWS (PLACEHOLDER)
   // ============================================
   reviews: {
     rating: 4.9,
     count: "50+",
-    googleReviewLink: "https://www.google.com/maps/place/A+Beautiful+Life",
+    googleReviewLink: "#",
   },
 
   // ============================================
-  // OWNER / ABOUT SECTION
+  // OWNER / ABOUT SECTION (PLACEHOLDER)
   // ============================================
   owner: {
-    name: "Eleonora Schmidt",
-    fullName: "Eleonora Schmidt",
+    name: "Maria Muster",
+    fullName: "Maria Muster",
     image: "/beauty/face.jpg",
     bio: [
-      "Willkommen bei A Beautiful Life: Ihr Kosmetik Institut für professionelle Behandlungen in Freiburg. Mit Leidenschaft und Expertise verwöhne ich Sie mit erstklassigen Beauty-Treatments.",
-      "In meinem Institut können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Ich arbeite mit hochwertigen Produkten von Babor und modernster Premium Aesthetic Technologie.",
-      "Ob Gesichtsbehandlung, Permanent Make-up, Kryolipolyse oder Laserbehandlung: Bei mir sind Sie in besten Händen. Besuchen Sie mich und erleben Sie Schönheitspflege auf höchstem Niveau.",
+      "Willkommen in unserem Kosmetik Institut. Mit Leidenschaft und Expertise verwöhne ich Sie mit erstklassigen Beauty-Treatments.",
+      "In meinem Institut können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen.",
+      "Ob Gesichtsbehandlung, Permanent Make-up oder Wimpernverlängerung: Bei mir sind Sie in besten Händen.",
     ],
     certifications: [
       { label: "Permanent Make-up Expertin", icon: "award" },
-      { label: "Kryolipolyse Spezialistin", icon: "star" },
+      { label: "Wimpern Spezialistin", icon: "star" },
       { label: "Babor Partner Institut", icon: "check" },
       { label: "15 Jahre Erfahrung", icon: "shield" },
     ],
   },
 
   // ============================================
-  // TESTIMONIALS
+  // TESTIMONIALS (PLACEHOLDER)
   // ============================================
   testimonials: [
     {
-      name: "Google Rezension",
+      name: "Kundin",
       rating: 5,
-      text: "Tolle Beratung und ein super Ergebnis zu einem fairen Preis. Das Permanent Make-up ist wunderschön geworden!",
+      text: "Tolle Beratung und ein super Ergebnis zu einem fairen Preis!",
       service: "Permanent Make-up",
-      date: "Google Bewertung",
+      date: "Bewertung",
     },
     {
-      name: "Google Rezension",
+      name: "Kundin",
       rating: 5,
-      text: "Sehr professionelle Behandlung und ein wunderbares Ambiente. Ich komme immer wieder gerne!",
+      text: "Sehr professionelle Behandlung und ein wunderbares Ambiente.",
       service: "Gesichtsbehandlung",
-      date: "Google Bewertung",
+      date: "Bewertung",
     },
     {
-      name: "Google Rezension",
+      name: "Kundin",
       rating: 5,
-      text: "Die Kryolipolyse-Behandlung war sehr effektiv. Sichtbare Ergebnisse nach wenigen Wochen. Absolut empfehlenswert!",
-      service: "Kryolipolyse",
-      date: "Google Bewertung",
-    },
-    {
-      name: "Google Rezension",
-      rating: 5,
-      text: "Kompetente Beratung und hervorragende Ergebnisse. Frau Schmidt ist super freundlich und nimmt sich Zeit für jeden Kunden.",
-      service: "Laserbehandlung",
-      date: "Google Bewertung",
+      text: "Kompetente Beratung und hervorragende Ergebnisse.",
+      service: "Wimpernverlängerung",
+      date: "Bewertung",
     },
   ],
 
@@ -165,7 +159,7 @@ export const config = {
       benefits: ["Sanft", "Langanhaltend"],
     },
     {
-      title: "Kryolipolyse & Laser",
+      title: "Weitere Behandlungen",
       description: "Moderne Technologien für Körperformung und Hautverjüngung. Individuelle Beratung für Ihre Wünsche.",
       price: "auf Anfrage",
       image: "/beauty/behandlung 3.png",
@@ -263,18 +257,6 @@ export const config = {
         { name: "Brazilian", price: "ab 55€" },
       ],
     },
-    {
-      category: "Kryolipolyse",
-      items: [
-        { name: "Behandlung", price: "auf Anfrage" },
-      ],
-    },
-    {
-      category: "Laserbehandlungen",
-      items: [
-        { name: "Behandlung", price: "auf Anfrage" },
-      ],
-    },
   ],
 
   // ============================================
@@ -282,17 +264,17 @@ export const config = {
   // ============================================
   images: {
     hero: "/beauty/face.jpg",
-    heroAlt: "A Beautiful Life | Kosmetik Institut Freiburg",
+    heroAlt: "Kosmetik Institut Demo",
     hygiene: "/beauty/behandlung 3.png",
     gallery: [
       { url: "/beauty/face.jpg", category: "Gesichtsbehandlung" },
       { url: "/beauty/eyebrow-after.png", category: "Permanent Make-up" },
       { url: "/beauty/maniküre 3.png", category: "Nageldesign" },
       { url: "/beauty/wimpern.png", category: "Wimpern" },
-      { url: "/beauty/face2.jpg", category: "Laserbehandlung" },
-      { url: "/beauty/behandlung 3.png", category: "Kryolipolyse" },
+      { url: "/beauty/face2.jpg", category: "Behandlung" },
+      { url: "/beauty/behandlung 3.png", category: "Behandlung" },
       { url: "/beauty/microneedling.jpg", category: "Microneedling" },
-      { url: "/beauty/frau.jpg", category: "Zahnaufhellung" },
+      { url: "/beauty/frau.jpg", category: "Behandlung" },
     ],
   },
 
@@ -312,27 +294,27 @@ export const config = {
   // ============================================
   hygiene: {
     headline: "Premium Beauty Erlebnis",
-    description: "In meinem Kosmetik Institut in Freiburg erwartet Sie ein entspannendes Ambiente mit modernster Ausstattung. Ich arbeite mit hochwertigen Babor Produkten und innovativer Premium Aesthetic Technologie.",
+    description: "In unserem Kosmetik Institut erwartet Sie ein entspannendes Ambiente mit modernster Ausstattung.",
     features: [
       {
         icon: "shield",
         title: "Höchste Hygiene",
-        description: "Ich arbeite steril und sauber. Ihre Gesundheit liegt mir am Herzen.",
+        description: "Wir arbeiten steril und sauber. Ihre Gesundheit liegt uns am Herzen.",
       },
       {
         icon: "star",
         title: "15 Jahre Erfahrung",
-        description: "Professionelle Behandlungen durch erfahrene Kosmetikerin.",
+        description: "Professionelle Behandlungen durch erfahrene Kosmetikerinnen.",
       },
       {
         icon: "award",
-        title: "Babor Partner",
-        description: "Ich verwende ausschließlich hochwertige Markenprodukte.",
+        title: "Premium Produkte",
+        description: "Wir verwenden ausschließlich hochwertige Markenprodukte.",
       },
       {
         icon: "check",
         title: "Zentrale Lage",
-        description: "Gut erreichbar am Leopoldring in der Freiburger Altstadt.",
+        description: "Gut erreichbar im Stadtzentrum.",
       },
     ],
   },
