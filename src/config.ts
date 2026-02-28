@@ -1,47 +1,54 @@
-// Beauty and Mohr Freiburg Configuration
-// Kosmetik, Permanent Make-up & Nageldesign
+// A Beautiful Life - Kosmetik Institut Freiburg Configuration
 
 export const config = {
   // ============================================
   // BUSINESS IDENTITY
   // ============================================
   business: {
-    name: "Beauty and Mohr",
-    tagline: "KOSMETIK · PERMANENT MAKE-UP · NAGELDESIGN",
-    motto: "Professionelle Kosmetik, Permanent Make-up, Microblading & Nageldesign in Freiburg",
-    description: "Ihr Kosmetikstudio in Freiburg. Klassische Gesichtsbehandlungen, Permanent Make-up, Microblading, Phibrows, Nageldesign, Wimpernverlängerung und Waxing. Entspannen Sie sich vom stressigen Alltag.",
+    name: "A Beautiful Life",
+    tagline: "KOSMETIK INSTITUT · FREIBURG",
+    motto: "Professionelle Kosmetik, Permanent Make-up & Wellness in Freiburg",
+    description: "Ihr Kosmetik Institut in Freiburg. Gesichtsbehandlungen, Permanent Make-up, Kryolipolyse, Laserbehandlungen, Nageldesign und vieles mehr. Wir verwöhnen Sie mit hochwertigen Behandlungen.",
     foundingYear: 2010,
     yearsExperience: 15,
     yearsInCenter: 15,
     satisfiedClients: "1000+",
-    productBrands: ["Malu Wilz", "Dr. R.A. Eckstein", "Dr. med. Christine Schrammek", "Goldeneye", "LCN"],
+    productBrands: ["Babor", "Premium Aesthetic"],
+  },
+
+  // ============================================
+  // LOGO
+  // ============================================
+  logo: {
+    src: "/logo.png",
+    alt: "A Beautiful Life Logo",
   },
 
   // ============================================
   // CONTACT INFORMATION
   // ============================================
   contact: {
-    phone: "0761 40 14 606",
-    phoneLink: "tel:+497614014606",
-    email: "info@beauty-and-mohr.de",
-    whatsapp: "+49 171 217 46 38",
-    whatsappLink: "https://wa.me/4917121746738",
+    phone: "0761 5958813",
+    phoneLink: "tel:+497615958813",
+    email: "info@a-beautiful-life.de",
+    whatsapp: "+49 761 5958813",
+    whatsappLink: "https://wa.me/497615958813",
     address: {
-      street: "Merzhauser Str. 1",
+      street: "Leopoldring 1, 2. OG",
       city: "Freiburg im Breisgau",
-      district: "Wiehre",
-      zip: "79100",
+      district: "Altstadt",
+      zip: "79098",
     },
-    googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2670.5!2d7.8485!3d47.9870!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911c9e9e9e9e9e%3A0x0!2sMerzhauser%20Str.%201%2C%2079100%20Freiburg!5e0!3m2!1sde!2sde!4v1700000000000!5m2!1sde!2sde",
-    googleMapsLink: "https://www.google.com/maps/search/?api=1&query=Merzhauser+Str.+1,+79100+Freiburg",
+    googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2670.5!2d7.8485!3d47.9970!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911c9e9e9e9e9e%3A0x0!2sLeopoldring%201%2C%2079098%20Freiburg!5e0!3m2!1sde!2sde!4v1700000000000!5m2!1sde!2sde",
+    googleMapsLink: "https://www.google.com/maps/search/?api=1&query=Leopoldring+1,+79098+Freiburg",
   },
 
   // ============================================
   // SOCIAL MEDIA
   // ============================================
   social: {
-    instagram: "https://www.instagram.com/beautyandmohr/",
-    facebook: "https://www.facebook.com/beautyandmohr/",
+    instagram: "https://www.instagram.com/a_beautiful_life_freiburg/",
+    facebook: "https://www.facebook.com/A-Beautiful-Life-Kosmetikinstitut-Freiburg-183001055055225/",
     tiktok: "",
   },
 
@@ -49,45 +56,45 @@ export const config = {
   // OPENING HOURS
   // ============================================
   hours: {
-    weekdays: "08:00-20:00",
-    saturday: "Nach Vereinbarung",
+    weekdays: "Mo 09:00-20:00, Di-Fr 10:00-18:00",
+    saturday: "Sa 10:00-15:00",
     sunday: "Geschlossen",
     note: "Termine nach Vereinbarung",
-    display: "08:00-20:00 Uhr",
+    display: "Mo-Sa nach Vereinbarung",
   },
 
   // ============================================
   // BOOKING
   // ============================================
   booking: {
-    url: "https://wa.me/4917121746738?text=Hallo,%20ich%20möchte%20gerne%20einen%20Termin%20vereinbaren.",
+    url: "https://wa.me/497615958813?text=Hallo,%20ich%20möchte%20gerne%20einen%20Termin%20vereinbaren.",
   },
 
   // ============================================
   // GOOGLE REVIEWS
   // ============================================
   reviews: {
-    rating: 4.8,
+    rating: 4.9,
     count: "50+",
-    googleReviewLink: "https://www.google.com/maps/place/Beauty+and+Mohr",
+    googleReviewLink: "https://www.google.com/maps/place/A+Beautiful+Life",
   },
 
   // ============================================
   // OWNER / ABOUT SECTION
   // ============================================
   owner: {
-    name: "Cornelia & Sarah",
-    fullName: "Cornelia Mohr & Sarah Wilmsen",
+    name: "Eleonora Schmidt",
+    fullName: "Eleonora Schmidt",
     image: "/beauty/face.jpg",
     bio: [
-      "Willkommen bei Beauty and Mohr: Ihre erste Adresse für professionelle Kosmetik, Permanent Make-up und Nageldesign in Freiburg. Unser erfahrenes Team verwöhnt Sie mit erstklassigen Behandlungen.",
-      "In unserem Kosmetikstudio können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Produkten von Malu Wilz, Dr. R.A. Eckstein und Dr. med. Christine Schrammek.",
-      "Ob klassische Gesichtsbehandlung, Permanent Make-up, Microblading oder Nageldesign: Bei uns sind Sie in besten Händen. Besuchen Sie uns und erleben Sie Schönheitspflege auf höchstem Niveau.",
+      "Willkommen bei A Beautiful Life: Ihr Kosmetik Institut für professionelle Behandlungen in Freiburg. Mit Leidenschaft und Expertise verwöhne ich Sie mit erstklassigen Beauty-Treatments.",
+      "In meinem Institut können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Ich arbeite mit hochwertigen Produkten von Babor und modernster Premium Aesthetic Technologie.",
+      "Ob Gesichtsbehandlung, Permanent Make-up, Kryolipolyse oder Laserbehandlung: Bei mir sind Sie in besten Händen. Besuchen Sie mich und erleben Sie Schönheitspflege auf höchstem Niveau.",
     ],
     certifications: [
       { label: "Permanent Make-up Expertin", icon: "award" },
-      { label: "Microblading & Phibrows", icon: "star" },
-      { label: "Malu Wilz Fachstudio", icon: "check" },
+      { label: "Kryolipolyse Spezialistin", icon: "star" },
+      { label: "Babor Partner Institut", icon: "check" },
       { label: "15 Jahre Erfahrung", icon: "shield" },
     ],
   },
@@ -99,29 +106,29 @@ export const config = {
     {
       name: "Google Rezension",
       rating: 5,
-      text: "Man fühlt sich wie zu Hause. Die Arbeit ist sehr genau und steril. Alle sind immer willkommen. Super Service!",
-      service: "Kosmetik",
-      date: "Google Bewertung",
-    },
-    {
-      name: "Google Rezension",
-      rating: 5,
-      text: "Sehr gute Beratung und ein tolles Preis-Leistungsverhältnis. Das Team ist super freundlich und kompetent. Absolute Empfehlung!",
+      text: "Tolle Beratung und ein super Ergebnis zu einem fairen Preis. Das Permanent Make-up ist wunderschön geworden!",
       service: "Permanent Make-up",
       date: "Google Bewertung",
     },
     {
       name: "Google Rezension",
       rating: 5,
-      text: "Das Permanent Make-up ist wunderschön geworden! Sehr natürlich und genau wie ich es mir vorgestellt habe. Vielen Dank!",
-      service: "Microblading",
+      text: "Sehr professionelle Behandlung und ein wunderbares Ambiente. Ich komme immer wieder gerne!",
+      service: "Gesichtsbehandlung",
       date: "Google Bewertung",
     },
     {
       name: "Google Rezension",
       rating: 5,
-      text: "Die Gesichtsbehandlung war himmlisch entspannend. Meine Haut sieht strahlend aus. Komme definitiv wieder!",
-      service: "Gesichtsbehandlung",
+      text: "Die Kryolipolyse-Behandlung war sehr effektiv. Sichtbare Ergebnisse nach wenigen Wochen. Absolut empfehlenswert!",
+      service: "Kryolipolyse",
+      date: "Google Bewertung",
+    },
+    {
+      name: "Google Rezension",
+      rating: 5,
+      text: "Kompetente Beratung und hervorragende Ergebnisse. Frau Schmidt ist super freundlich und nimmt sich Zeit für jeden Kunden.",
+      service: "Laserbehandlung",
       date: "Google Bewertung",
     },
   ],
@@ -131,46 +138,46 @@ export const config = {
   // ============================================
   services: [
     {
-      title: "Klassische Gesichtsbehandlung",
-      description: "Verwöhnende Gesichtsbehandlungen mit hochwertigen Malu Wilz und Dr. R.A. Eckstein Produkten. Reinigung, Peeling, Massage und individuelle Pflege für strahlende Haut.",
-      price: "ab 66€",
+      title: "Kryolipolyse",
+      description: "Fettreduktion ohne Operation. Mit modernster Technologie werden Fettzellen gezielt behandelt und nachhaltig reduziert.",
+      price: "ab 149€",
+      image: "/beauty/behandlung 3.png",
+      benefits: ["Nicht-invasiv", "Effektiv"],
+    },
+    {
+      title: "Gesichtsbehandlungen",
+      description: "Luxuriöse Gesichtsbehandlungen mit Babor Produkten. Green Peel, Microneedling, Aqua Facial und mehr für strahlende Haut.",
+      price: "ab 79€",
       image: "/beauty/face.jpg",
-      benefits: ["Tiefenreinigung", "Entspannung"],
+      benefits: ["Tiefenreinigung", "Anti-Aging"],
     },
     {
       title: "Permanent Make-up",
-      description: "Perfekte Lippen, Augenbrauen oder Lidstrich, jeden Tag. Permanent Make-up lässt Träume von strahlenden Augen und attraktiven Konturen wahr werden.",
+      description: "Perfekte Augenbrauen, Lidstrich oder Lippen, jeden Tag. Professionelle Mikropigmentation für natürliche Ergebnisse.",
       price: "ab 199€",
       image: "/beauty/eyebrow-after.png",
-      benefits: ["Langanhaltend", "Wasserfest"],
+      benefits: ["Langanhaltend", "Natürlich"],
     },
     {
-      title: "Microblading & Phibrows",
-      description: "Natürlich aussehende Augenbrauen mit der Härchentechnik. Perfekt für dichte, volle Brauen, die zu Ihrem Gesicht passen.",
-      price: "ab 449€",
+      title: "Laserbehandlungen",
+      description: "Moderne Laserbehandlungen für Hautverjüngung, Pigmentflecken und dauerhafte Haarentfernung.",
+      price: "ab 89€",
       image: "/beauty/face2.jpg",
-      benefits: ["1-2 Jahre Halt", "Natürlich"],
+      benefits: ["Präzise", "Effektiv"],
     },
     {
-      title: "Maniküre & Nageldesign",
-      description: "Von klassischer Maniküre bis zur professionellen Shellac-Behandlung. Wir zaubern Ihnen wunderschöne, gepflegte Nägel.",
-      price: "ab 32€",
-      image: "/beauty/maniküre 3.png",
-      benefits: ["Langanhaltend", "Kreativ"],
-    },
-    {
-      title: "Wimpernlifting",
-      description: "Traumhaft geschwungene Wimpern für einen verführerischen Blick. Natürliches Lifting für bis zu 8 Wochen.",
-      price: "ab 79€",
+      title: "Wimpernverlängerung",
+      description: "Traumhaft volle Wimpern für einen verführerischen Blick. Classic, Volume oder Mega Volume nach Ihren Wünschen.",
+      price: "ab 89€",
       image: "/beauty/wimpern.png",
       benefits: ["Natürlich", "Langanhaltend"],
     },
     {
-      title: "Waxing & Haarentfernung",
-      description: "Sanfte und effektive Haarentfernung mit Waxing. Für lang anhaltend glatte Haut an allen Körperstellen.",
-      price: "ab 10€",
-      image: "/beauty/behandlung 3.png",
-      benefits: ["Gründlich", "Langanhaltend"],
+      title: "Zahnaufhellung",
+      description: "Professionelles Bleaching für ein strahlendes Lächeln. Schonende und effektive Zahnaufhellung.",
+      price: "ab 199€",
+      image: "/beauty/frau.jpg",
+      benefits: ["Schmerzfrei", "Sofort sichtbar"],
     },
   ],
 
@@ -193,97 +200,81 @@ export const config = {
   // ============================================
   pricing: [
     {
-      category: "Klassische Gesichtsbehandlungen",
+      category: "Gesichtsbehandlungen",
       items: [
-        { name: "Basic Klassik", price: "66€" },
-        { name: "Basic Klassik Plus", price: "69€" },
-        { name: "Pflege & Verwöhnen I", price: "79€" },
-        { name: "Pflege & Verwöhnen II", price: "82€" },
-        { name: "Pflege & Verwöhnen III", price: "92€" },
-        { name: "Anti-Aging Intensiv", price: "105€" },
-        { name: "Microneedling Spezialbehandlung", price: "139€" },
-        { name: "Hydrafacial", price: "155€" },
-        { name: "Back Treatment Klassik", price: "85€" },
+        { name: "Babor Classic Treatment", price: "79€" },
+        { name: "Babor Intensiv Treatment", price: "99€" },
+        { name: "Green Peel Fresh Up", price: "95€" },
+        { name: "Green Peel Energy", price: "139€" },
+        { name: "Microneedling", price: "149€" },
+        { name: "Aqua Facial", price: "119€" },
+        { name: "Carbon Peeling", price: "129€" },
+        { name: "Plasma Lifting", price: "179€" },
       ],
     },
     {
-      category: "Green Peel Kräuterschälkur",
+      category: "Kryolipolyse",
       items: [
-        { name: "Fresh Up", price: "95€" },
-        { name: "Energy", price: "139€" },
-        { name: "Classic", price: "259€" },
-        { name: "Full Body", price: "349€" },
-      ],
-    },
-    {
-      category: "Wimpern & Augenbrauen",
-      items: [
-        { name: "Wimpern färben", price: "12€" },
-        { name: "Augenbrauen färben", price: "10€" },
-        { name: "Wimpern & Brauen färben", price: "20€" },
-        { name: "Augenbrauen zupfen", price: "12€" },
-        { name: "Augenbrauen mit Fadentechnik", price: "18€" },
-        { name: "Wimpernlifting", price: "79€" },
-        { name: "Wimpernlifting inkl. färben", price: "82€" },
+        { name: "1 Zone", price: "149€" },
+        { name: "2 Zonen", price: "249€" },
+        { name: "4 Zonen", price: "449€" },
+        { name: "Ganzkörper Paket", price: "auf Anfrage" },
       ],
     },
     {
       category: "Permanent Make-up",
       items: [
-        { name: "Augenbrauen", price: "350€" },
-        { name: "Lidstrich Oben", price: "245€" },
-        { name: "Lidstrich Unten", price: "199€" },
-        { name: "Lidstrich Oben & Unten", price: "350€" },
-        { name: "Lippen", price: "449€" },
-        { name: "Lippenvollschattierung", price: "615€" },
-        { name: "Nachbehandlung Lidstrich", price: "95€" },
-        { name: "Nachbehandlung Augenbrauen/Lippen", price: "169€" },
+        { name: "Augenbrauen", price: "349€" },
+        { name: "Lidstrich oben", price: "249€" },
+        { name: "Lidstrich unten", price: "199€" },
+        { name: "Lippen Kontur", price: "349€" },
+        { name: "Lippen Vollschattierung", price: "449€" },
+        { name: "Nachbehandlung", price: "99€" },
       ],
     },
     {
-      category: "Microblading",
+      category: "Laserbehandlungen",
       items: [
-        { name: "Augenbrauen", price: "ab 449€" },
-        { name: "Nachbehandlung", price: "129€" },
+        { name: "Gesicht", price: "89€" },
+        { name: "Hals & Dekolleté", price: "119€" },
+        { name: "Pigmentflecken Behandlung", price: "99€" },
+        { name: "Hautverjüngung", price: "149€" },
       ],
     },
     {
-      category: "Maniküre & Nageldesign",
+      category: "Haarentfernung (SHR Laser)",
       items: [
-        { name: "Maniküre Klassisch", price: "32€" },
-        { name: "Maniküre Deluxe", price: "42€" },
-        { name: "SPA Maniküre", price: "62€" },
-        { name: "Shellac lackieren", price: "42€" },
-        { name: "Shellac entfernen inkl. Maniküre", price: "52€" },
+        { name: "Oberlippe", price: "29€" },
+        { name: "Kinn", price: "35€" },
+        { name: "Achseln", price: "49€" },
+        { name: "Bikinizone", price: "69€" },
+        { name: "Unterschenkel", price: "99€" },
+        { name: "Ganze Beine", price: "179€" },
       ],
     },
     {
-      category: "Pediküre",
+      category: "Maniküre & Pediküre",
       items: [
-        { name: "Pediküre Klassisch", price: "40€" },
-        { name: "Pediküre Deluxe", price: "50€" },
-        { name: "SPA Pediküre", price: "64€" },
+        { name: "Maniküre Classic", price: "35€" },
+        { name: "Maniküre mit Gel-Lack", price: "49€" },
+        { name: "Pediküre Classic", price: "45€" },
+        { name: "SPA Pediküre", price: "65€" },
       ],
     },
     {
-      category: "Haarentfernung / Waxing",
+      category: "Wimpern",
       items: [
-        { name: "Oberlippe", price: "10€" },
-        { name: "Unterlippe", price: "10€" },
-        { name: "Kinn", price: "10€" },
-        { name: "Achseln", price: "15€" },
-        { name: "Bikinizone", price: "22€" },
-        { name: "Oberschenkel", price: "39€" },
-        { name: "Unterschenkel", price: "29€" },
-        { name: "Ganze Beine", price: "49€" },
-        { name: "Augenbrauen", price: "12€" },
+        { name: "Wimpernverlängerung Classic", price: "89€" },
+        { name: "Wimpernverlängerung Volume", price: "129€" },
+        { name: "Wimpern Auffüllung", price: "49€" },
+        { name: "Wimpernlifting", price: "69€" },
       ],
     },
     {
-      category: "Männersache",
+      category: "Zahnaufhellung",
       items: [
-        { name: "Herrenkosmetik Basis", price: "69€" },
-        { name: "Herrenkosmetik Intensiv", price: "79€" },
+        { name: "Bleaching Standard", price: "199€" },
+        { name: "Bleaching Premium", price: "299€" },
       ],
     },
   ],
@@ -293,57 +284,57 @@ export const config = {
   // ============================================
   images: {
     hero: "/beauty/face.jpg",
-    heroAlt: "Beauty and Mohr | Kosmetikstudio Freiburg",
+    heroAlt: "A Beautiful Life | Kosmetik Institut Freiburg",
     hygiene: "/beauty/behandlung 3.png",
     gallery: [
       { url: "/beauty/face.jpg", category: "Gesichtsbehandlung" },
-      { url: "/beauty/eyebrow-after.png", category: "Microblading" },
+      { url: "/beauty/eyebrow-after.png", category: "Permanent Make-up" },
       { url: "/beauty/maniküre 3.png", category: "Nageldesign" },
       { url: "/beauty/wimpern.png", category: "Wimpern" },
-      { url: "/beauty/face2.jpg", category: "Permanent Make-up" },
-      { url: "/beauty/behandlung 3.png", category: "Kosmetik" },
-      { url: "/beauty/maniküre neu.png", category: "Maniküre" },
+      { url: "/beauty/face2.jpg", category: "Laserbehandlung" },
+      { url: "/beauty/behandlung 3.png", category: "Kryolipolyse" },
       { url: "/beauty/microneedling.jpg", category: "Microneedling" },
+      { url: "/beauty/frau.jpg", category: "Zahnaufhellung" },
     ],
   },
 
   // ============================================
-  // COLORS (Theme) - Elegant Dusty Rose / Mauve
+  // COLORS (Theme) - Elegant Gold/Champagne
   // ============================================
   colors: {
-    primary: "#B5838D", // Dusty Rose / Mauve
-    primaryRgb: "181, 131, 141",
-    dark: "#2D2D2D",
-    light: "#FDF8F7",
-    lightAlt: "#F9F2F0",
+    primary: "#C9A962",
+    primaryRgb: "201, 169, 98",
+    dark: "#1A1A1A",
+    light: "#FAF8F5",
+    lightAlt: "#F5F2ED",
   },
 
   // ============================================
   // HYGIENE SECTION
   // ============================================
   hygiene: {
-    headline: "Entspannung & Wohlbefinden",
-    description: "In unserem Kosmetikstudio in Freiburg können Sie ruhige Momente verbringen, sich vom stressigen Alltag erholen und sich eine verdiente Auszeit gönnen. Wir arbeiten mit hochwertigen Produkten von Malu Wilz, Dr. R.A. Eckstein und Dr. med. Christine Schrammek.",
+    headline: "Premium Beauty Erlebnis",
+    description: "In meinem Kosmetik Institut in Freiburg erwartet Sie ein entspannendes Ambiente mit modernster Ausstattung. Ich arbeite mit hochwertigen Babor Produkten und innovativer Premium Aesthetic Technologie.",
     features: [
       {
         icon: "shield",
         title: "Höchste Hygiene",
-        description: "Wir arbeiten steril und sauber. Ihre Gesundheit liegt uns am Herzen.",
+        description: "Ich arbeite steril und sauber. Ihre Gesundheit liegt mir am Herzen.",
       },
       {
         icon: "star",
         title: "15 Jahre Erfahrung",
-        description: "Professionelle Behandlungen durch erfahrene Kosmetikerinnen.",
+        description: "Professionelle Behandlungen durch erfahrene Kosmetikerin.",
       },
       {
         icon: "award",
-        title: "Premium Produkte",
-        description: "Wir verwenden ausschließlich hochwertige Markenprodukte.",
+        title: "Babor Partner",
+        description: "Ich verwende ausschließlich hochwertige Markenprodukte.",
       },
       {
         icon: "check",
         title: "Zentrale Lage",
-        description: "Gut erreichbar in der Merzhauser Straße in Freiburg.",
+        description: "Gut erreichbar am Leopoldring in der Freiburger Altstadt.",
       },
     ],
   },

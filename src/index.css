@@ -5,11 +5,11 @@
   --font-serif: "Cormorant Garamond", serif;
   --font-sans: "Inter", sans-serif;
 
-  /* Brand Colors - Beauty and Mohr (Elegant Dusty Rose/Mauve) */
-  --color-primary: #B5838D;
-  --color-dark: #2D2D2D;
-  --color-light: #FDF8F7;
-  --color-light-alt: #F9F2F0;
+  /* Brand Colors - A Beautiful Life (Elegant Gold/Champagne) */
+  --color-primary: #C9A962;
+  --color-dark: #1A1A1A;
+  --color-light: #FAF8F5;
+  --color-light-alt: #F5F2ED;
 }
 
 @layer base {

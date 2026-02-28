@@ -92,8 +92,8 @@ const Navbar = () => {
       isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3 md:top-0" : "bg-transparent"
     )}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex items-center">
-          <span className="font-serif text-xl md:text-2xl tracking-widest uppercase font-light">{config.business.name}</span>
+        <div className="flex items-center gap-3">
+          {config.logo?.src && (<img src={config.logo.src} alt={config.logo.alt || config.business.name} className="h-10 md:h-12 object-contain" />)}<span className="font-serif text-xl md:text-2xl tracking-widest uppercase font-light">{config.business.name}</span>
         </div>
 
         {/* Desktop Nav */}
@@ -579,7 +579,7 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div>
               <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Über uns</span>
-              <h2 className="font-serif text-5xl md:text-6xl mb-8">Hallo, wir sind <br /><span className="italic">{config.owner.name}.</span></h2>
+              <h2 className="font-serif text-5xl md:text-6xl mb-8">Hallo, ich bin <br /><span className="italic">{config.owner.name}.</span></h2>
             </div>
 
             <div className="space-y-6 text-black/70 leading-relaxed">
@@ -605,7 +605,7 @@ const AboutSection = () => {
                 className="bg-dark text-white px-10 py-5 rounded-full text-xs uppercase tracking-widest font-bold shadow-xl hover:bg-opacity-90 transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 aria-label="Jetzt kennenlernen und Termin buchen"
               >
-                Lernen Sie uns kennen
+                Lernen Sie mich kennen
               </button>
             </div>
           </div>
@@ -826,7 +826,7 @@ const ContactSection = () => {
         <div className="p-12 md:p-20 space-y-12">
           <div>
             <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Termin vereinbaren</span>
-            <h2 className="font-serif text-5xl md:text-7xl text-white mb-8">Wir freuen uns <br /> <span className="italic">auf Sie.</span></h2>
+            <h2 className="font-serif text-5xl md:text-7xl text-white mb-8">Ich freue mich <br /> <span className="italic">auf Sie.</span></h2>
             <p className="text-white/40 leading-relaxed">Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir beraten Sie gerne zu Ihrem Wunsch-Treatment und finden den perfekten Termin für Sie.</p>
           </div>
 
